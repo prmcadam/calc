@@ -20,5 +20,5 @@ if __name__ == '__main__':
 	elif command == 'min':
 		print(min(nums))
 	else:
-		usage="calc.py[add|multiply] NUM1 [NUM2 [NUM3 [...]]]"
+		usage="calc.py[add|multiply|min] NUM1 [NUM2 [NUM3 [...]]]"
 		print usage
