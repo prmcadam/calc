@@ -13,5 +13,8 @@ if __name__ == '__main__':
 	nums=map(float, sys.argv[2:])
 	if command=='add':
 		print add_all(nums)
-	if command=='multiply':
+	elif command=='multiply':
 		print multiply_all(nums)
+	else:
+		usage="calc.py[add|multiply] NUM1 [NUM2 [NUM3 [...]]]"
+        print usage
